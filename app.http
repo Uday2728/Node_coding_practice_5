@@ -1,0 +1,33 @@
+
+### 1st API
+
+GET http://localhost:3000/movies/
+
+
+
+### 2nd API
+POST http://localhost:3000/movies/
+Content-Type:application/json
+{
+  "directorId": 6,
+  "movieName": "Jurassic Park",
+  "leadActor": "Jeff Go"
+}
+
+### 3rd API
+GET http://localhost:3000/movies/118/
+
+###4th API
+
+PUT http://localhost:3000/movies/118/
+Content-Type:application/json
+{
+   "directorId": 24,
+  "movieName": "Thor",
+  "leadActor": "Christopher Hemsworth"
+}
+
+
+###5th  delete API
+
+DELETE  http://localhost:3000/movies/117/
